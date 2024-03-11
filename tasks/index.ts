@@ -6,7 +6,8 @@ import { Options } from '@layerzerolabs/lz-v2-utilities'
 
 import { abi } from './abi'
 
-task('lz:test:oft:send', 'test send')
+// send tokens from a contract on one network to another
+task('lz:oft:send', 'test send')
     .addParam('contractA', 'contract address on network A')
     .addParam('contractB', 'contract address on network B')
     .addParam('networkA', 'name of the network A')
